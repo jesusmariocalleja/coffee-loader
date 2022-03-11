@@ -16,10 +16,11 @@ body{
 
 #fill-coffee-demo{
     position: fixed;
+    width: 50px;
     height: 100%;
     display: grid;
     place-content: center;
-    left: 2rem;
+    left: 1rem;
 
     #load-percent{
         transform: rotate(-90deg);
@@ -46,6 +47,7 @@ body{
 .cup{
     display: flex;
     align-items: flex-start;
+    margin-left: $handle-width;
 
     .cup-body{
         height: $cup-height;
@@ -65,7 +67,7 @@ body{
             background-image: url(./../assets/coffee.png);
             background-repeat: repeat-x;
             background-position: 0 $cup-height;
-            animation: fill-cup 2.5s infinite;
+            animation: fill-cup 5s infinite;
             transition: .2;
         }
 

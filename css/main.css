@@ -18,11 +18,12 @@ body {
 
 #fill-coffee-demo {
   position: fixed;
+  width: 50px;
   height: 100%;
   display: -ms-grid;
   display: grid;
   place-content: center;
-  left: 2rem;
+  left: 1rem;
 }
 
 #fill-coffee-demo #load-percent {
@@ -50,6 +51,7 @@ body {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
+  margin-left: 40px;
 }
 
 .cup .cup-body {
@@ -72,8 +74,8 @@ body {
   background-image: url(./../assets/coffee.png);
   background-repeat: repeat-x;
   background-position: 0 140px;
-  -webkit-animation: fill-cup 2.5s infinite;
-          animation: fill-cup 2.5s infinite;
+  -webkit-animation: fill-cup 5s infinite;
+          animation: fill-cup 5s infinite;
   -webkit-transition: .2;
   transition: .2;
 }
